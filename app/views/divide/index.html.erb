@@ -1,0 +1,14 @@
+<h1>DIVISION</h1>
+<%= form_with  local: true, method: :post do %>
+
+<br><%= label_tag "Enter Number 1 for division" %>
+<%= number_field_tag "num1" %>
+
+<br><%= label_tag "Enter Number 2 for division" %>
+<%= number_field_tag "num2" %>
+
+
+<br><%= submit_tag "Calculate" %>
+
+
+<% end %>

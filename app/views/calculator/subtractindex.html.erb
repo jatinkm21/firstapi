@@ -1,0 +1,10 @@
+<%= form_with  local: true, method: :post do %>  
+    <br><%= @heading%>
+    <br><%= label_tag "Enter first value for the above operation" %>
+    <%= number_field_tag "num1" %>
+    <br><%= label_tag "Enter second value for the above operation" %>
+    <%= number_field_tag "num2" %>
+    <% %>
+    <br><%= submit_tag "Calculate" %>
+    
+<% end %>

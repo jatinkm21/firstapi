@@ -1,0 +1,8 @@
+<%= form_with url: @path, local: true, method: :post do %>  
+    <br><%= @heading%>
+    <br><%= label_tag "Enter first value for the above operation" %>
+    <%= number_field_tag "firstnumber" %>
+    <br><%= label_tag "Enter second value for the above operation" %>
+    <%= number_field_tag "secondnumber" %>
+    <br><%= submit_tag "Calculate" %>  
+<% end %>
